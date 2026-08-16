@@ -1,12 +1,18 @@
 ## Development
 
-When starting the dev server, use background mode:
+Start the dev server in the foreground:
 
 ```
-astro dev --background
+npm run dev
 ```
 
-Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
+or, equivalently, `npx astro dev`. The server runs at
+http://localhost:4321 and stays attached to the terminal (stop it with
+Ctrl+C).
+
+Note: this project pins Astro 5, which does not support the
+background-mode subcommands (`astro dev --background`, `astro dev
+stop`, `astro dev status`, `astro dev logs`) introduced in Astro 7.
 
 ## Documentation
 
