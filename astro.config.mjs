@@ -6,5 +6,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://osumi-consulting.github.io',
+	base: '/shuyi.github.io/',
 	integrations: [react(), tailwind()],
 });
