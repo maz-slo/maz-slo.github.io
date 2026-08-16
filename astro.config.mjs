@@ -8,5 +8,6 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	site: 'https://osumi-consulting.github.io',
 	base: '/shuyi.github.io/',
+	output: 'static',
 	integrations: [react(), tailwind()],
 });
