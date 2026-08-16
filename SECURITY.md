@@ -16,11 +16,15 @@ npm install --save-dev --save-exact @types/react @types/react-dom typescript
 npm install --save-exact @fontsource/plus-jakarta-sans @fontsource/inter
 ```
 
-## 2. Audit dependencies for known vulnerabilities
+## 2. Audit and inspect dependencies
 
 - Run `npm audit` after any dependency change and before any release.
 - If high/critical vulnerabilities are reported, do NOT proceed until they are
   resolved (update, replace, or document in this file why they are acceptable).
+- Before adding a third-party dependency, inspect it for suspicious scripts,
+  hidden prompt injection, and unexpected postinstall/build behavior (e.g. in
+  its source, package tarball, or postinstall hook). `npm audit` only catches
+  known CVEs — it is not a substitute for this review.
 
 ## 3. Review code for injection risks
 
