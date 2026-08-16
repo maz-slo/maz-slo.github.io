@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "services": "服务",
+    "process": "流程",
+    "about": "关于我",
+    "contact": "联系我",
+    "langToggle": "EN / 中"
+  },
+  "hero": {
+    "eyebrow": "设计师 & 开发者",
+    "headline": "代码与创意交融，打造流畅的数字体验。",
+    "subheadline": "我帮助企业通过策略、设计与技术，构建有意义的数字体验。",
+    "ctaPrimary": "探索服务",
+    "ctaSecondary": "联系我"
+  },
+  "services": {
+    "eyebrow": "我能做什么",
+    "title": "服务",
+    "description": "为成长型企业和有雄心的品牌提供端到端数字解决方案。",
+    "items": [
+      {
+        "title": "全案数字品牌与网站解决方案",
+        "description": "品牌战略、视觉识别、UI/UX 设计与响应式网站开发，构建统一协调的系统。",
+        "tags": ["品牌战略", "UI/UX 设计", "网站开发"],
+        "icon": "sparkles"
+      },
+      {
+        "title": "运营自动化",
+        "description": "工作流自动化、内部工具与系统集成，减少人工操作并扩展运营能力。",
+        "tags": ["工作流自动化", "内部工具", "系统集成"],
+        "icon": "zap"
+      },
+      {
+        "title": "媒体制作",
+        "description": "视频制作、动态图形与数字内容创作，清晰讲述品牌故事。",
+        "tags": ["视频制作", "动态图形", "内容策略"],
+        "icon": "play"
+      },
+      {
+        "title": "平面设计与营销",
+        "description": "印刷与数字物料、社交媒体素材与活动视觉，保持营销传播的一致性。",
+        "tags": ["印刷设计", "社交媒体", "营销物料"],
+        "icon": "diamond"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "合作方式",
+    "title": "流程",
+    "description": "从初次沟通到上线优化，清晰协作的完整流程。",
+    "steps": [
+      { "number": "01", "title": "需求沟通", "description": "深入了解目标、受众与约束条件。" },
+      { "number": "02", "title": "策略规划", "description": "明确方案、范围与成功指标。" },
+      { "number": "03", "title": "设计与开发", "description": "迭代式设计与开发，保持定期沟通。" },
+      { "number": "04", "title": "上线与优化", "description": "部署上线，根据真实反馈持续优化。" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "客户评价",
+    "title": "评价",
+    "description": "来自合作方的真实反馈。",
+    "items": [
+      { "quote": "Shuyi 将我们的旧网站改造成现代化、高转化率的体验。", "name": "客户姓名", "role": "CEO, 示例公司" },
+      { "quote": "自动化工作流每周为团队节省了数小时。", "name": "客户姓名", "role": "运营负责人, 示例公司" }
+    ]
+  },
+  "about": {
+    "eyebrow": "关于我",
+    "title": "代码与创意交融。",
+    "description": "我是位于加州 San Luis Obispo 的软件开发者和 UI/UX 设计师。我构建软件，并帮助企业创造有意义的数字体验。",
+    "facts": [
+      { "label": "所在地", "value": "San Luis Obispo, CA" },
+      { "label": "公司", "value": "Osumi Consulting LLC" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "联系我",
+    "title": "一起创造精彩。",
+    "description": "有项目想法？我很乐意倾听。",
+    "cta": "发送邮件"
+  },
+  "footer": {
+    "copyright": "© 2026 Shuyi Liu / Osumi Consulting LLC",
+    "location": "San Luis Obispo, CA, USA"
+  }
+}

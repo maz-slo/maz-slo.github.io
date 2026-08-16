@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "langToggle": "EN / 中"
+  },
+  "hero": {
+    "eyebrow": "Designer & Developer",
+    "headline": "Blending code and creativity to craft seamless digital experiences.",
+    "subheadline": "I help businesses build meaningful digital experiences through strategy, design, and technology.",
+    "ctaPrimary": "Explore Services",
+    "ctaSecondary": "Get in Touch"
+  },
+  "services": {
+    "eyebrow": "What I Do",
+    "title": "Services",
+    "description": "End-to-end digital solutions tailored for growing businesses and ambitious brands.",
+    "items": [
+      {
+        "title": "Full-Service Digital Branding & Web Solution",
+        "description": "Brand strategy, visual identity, UI/UX design, and responsive web development built as one coherent system.",
+        "tags": ["Brand Strategy", "UI/UX Design", "Web Development"],
+        "icon": "sparkles"
+      },
+      {
+        "title": "Automation for Operations",
+        "description": "Workflow automation, internal tools, and system integrations that reduce manual work and scale operations.",
+        "tags": ["Workflow Automation", "Internal Tools", "Integrations"],
+        "icon": "zap"
+      },
+      {
+        "title": "Media",
+        "description": "Video production, motion graphics, and digital content creation that tells your brand story with clarity.",
+        "tags": ["Video Production", "Motion Graphics", "Content Strategy"],
+        "icon": "play"
+      },
+      {
+        "title": "Graphic Designs & Marketing",
+        "description": "Print and digital collateral, social assets, and campaign visuals that keep your marketing consistent.",
+        "tags": ["Print Design", "Social Media", "Marketing Assets"],
+        "icon": "diamond"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "Process",
+    "description": "A clear, collaborative process from first conversation to launch and beyond.",
+    "steps": [
+      { "number": "01", "title": "Discovery", "description": "Deep dive into your goals, audience, and constraints." },
+      { "number": "02", "title": "Strategy", "description": "Define the approach, scope, and success metrics." },
+      { "number": "03", "title": "Design & Build", "description": "Iterative design and development with regular check-ins." },
+      { "number": "04", "title": "Launch & Optimize", "description": "Deploy, measure, and refine based on real feedback." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "What Clients Say",
+    "title": "Testimonials",
+    "description": "Kind words from people I've worked with.",
+    "items": [
+      { "quote": "Shuyi transformed our outdated site into a modern, high-converting experience.", "name": "Client Name", "role": "CEO, Example Co" },
+      { "quote": "The automation workflows alone saved our team hours every week.", "name": "Client Name", "role": "Operations Lead, Example Co" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "Blending code and creativity.",
+    "description": "I'm a software developer and UI/UX designer based in San Luis Obispo, CA. I build software and help businesses create meaningful digital experiences.",
+    "facts": [
+      { "label": "Location", "value": "San Luis Obispo, CA" },
+      { "label": "Company", "value": "Osumi Consulting LLC" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Let's build something great.",
+    "description": "Have a project in mind? I'd love to hear about it.",
+    "cta": "Send an Email"
+  },
+  "footer": {
+    "copyright": "© 2026 Shuyi Liu / Osumi Consulting LLC",
+    "location": "San Luis Obispo, CA, USA"
+  }
+}
