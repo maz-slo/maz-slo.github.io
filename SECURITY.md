@@ -40,3 +40,27 @@ For every component, check:
 ## 4. Keep dependencies up to date
 
 - Run `npm audit` and `npm update` monthly.
+
+## 5. Accepted vulnerabilities (baseline, 2026-08-15)
+
+`npm audit` run after the initial dependency install reports 4
+vulnerabilities: 2 high, 2 low.
+
+- **Astro <=7.0.9** (incl. pinned 5.18.2): XSS advisories (`define:vars`
+  and unescaped spread props, view-transition animation properties,
+  unescaped slot names) and a host-header SSRF in prerendered error pages.
+- **esbuild** (transitive): arbitrary file read via the dev server on
+  Windows only — not applicable on macOS.
+- **sharp** (transitive): libvips CVEs (CVE-2026-33327/33328/35590/35591).
+
+These are accepted in this context: this is a static site deployed to
+GitHub Pages — no backend, no SSR, and no dev server exposed in production;
+no end-user input is rendered through the affected Astro paths, and the
+vulnerable code paths (Astro dev/build internals, esbuild, sharp) are not
+reachable by end users of the static output. The only upstream fix is a
+breaking upgrade to `astro@7` with Tailwind v4, which contradicts the
+approved plan and requires reworking the Tailwind configuration and
+utility classes.
+
+Per Section 4, keep monitoring `npm audit` for Astro 7 / Tailwind v4
+updates and upgrade when feasible.
