@@ -12,7 +12,7 @@ Personal portfolio website for Shuyi — projects, experience, and writing, buil
 
 ## Live Site
 
-Deployed to GitHub Pages at [https://osumi-consulting.github.io/shuyi.github.io/](https://osumi-consulting.github.io/shuyi.github.io/) (placeholder — site content coming soon).
+Deployed to GitHub Pages at [https://maz-slo.github.io/shuyi.github.io/](https://maz-slo.github.io/shuyi.github.io/).
 
 ## Commands
 
