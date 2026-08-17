@@ -7,7 +7,6 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://maz-slo.github.io',
-	base: '/shuyi.github.io/',
 	output: 'static',
 	integrations: [react(), tailwind()],
 });
