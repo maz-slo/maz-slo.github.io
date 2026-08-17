@@ -1,16 +1,26 @@
 ---
-import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
+import { CursorGlow } from '../components/CursorGlow';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
+import { Hero } from '../sections/Hero';
+import { Services } from '../sections/Services';
+import { Process } from '../sections/Process';
+import { Testimonials } from '../sections/Testimonials';
+import { About } from '../sections/About';
+import { Contact } from '../sections/Contact';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Shuyi Liu — Designer &amp; Developer</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Shuyi Liu — Designer & Developer">
+  <CursorGlow client:load />
+  <Navbar client:load />
+  <main>
+    <Hero client:load />
+    <Services client:visible />
+    <Process client:visible />
+    <Testimonials client:visible />
+    <About client:visible />
+    <Contact client:visible />
+  </main>
+  <Footer client:visible />
+</Layout>
