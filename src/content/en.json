@@ -27,13 +27,13 @@
       {
         "title": "Automation for Operations",
         "description": "Workflow automation, internal tools, and system integrations that reduce manual work and scale operations.",
-        "tags": ["Workflow Automation", "Internal Tools", "Integrations"],
+        "tags": ["Internal Tools", "Integrations"],
         "icon": "zap"
       },
       {
         "title": "Media",
         "description": "Video production, motion graphics, and digital content creation that tells your brand story with clarity.",
-        "tags": ["Video Production", "Motion Graphics", "Content Strategy"],
+        "tags": ["Video Production", "Content Strategy"],
         "icon": "play"
       },
       {
