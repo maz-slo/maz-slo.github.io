@@ -26,9 +26,6 @@ export function About() {
                 (e.target as HTMLImageElement).style.display = 'none';
               }}
             />
-            <div className="absolute inset-0 flex items-center justify-center text-[var(--text-muted)]">
-              <span className="text-sm uppercase tracking-widest">Profile Photo</span>
-            </div>
           </div>
         </motion.div>
 
