@@ -32,7 +32,7 @@ export function Contact() {
 
         <div className="flex justify-center gap-6">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/shuyi95"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -43,7 +43,7 @@ export function Contact() {
             </svg>
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/maz-slo"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
