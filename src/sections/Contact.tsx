@@ -25,7 +25,7 @@ export function Contact() {
         <p className="mb-10 text-[1.125rem] text-[var(--text-secondary)]">{contact.description}</p>
 
         <div className="mb-10 flex justify-center">
-          <MagneticButton href="mailto:hello@shuyiliu.com" variant="primary">
+          <MagneticButton href="mailto:info@osumi.co" variant="primary">
             {contact.cta}
           </MagneticButton>
         </div>
