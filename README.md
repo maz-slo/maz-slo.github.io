@@ -12,7 +12,7 @@ Personal portfolio website for Shuyi — projects, experience, and writing, buil
 
 ## Live Site
 
-Deployed to GitHub Pages at [https://maz-slo.github.io/shuyi.github.io/](https://maz-slo.github.io/).
+Deployed to GitHub Pages at [http://shuyiliu.com/].
 
 ## Commands
 
